@@ -7,6 +7,6 @@ WORKDIR /app
 
 COPY src /app/src
 
-ENV PYTHONPATH=/app
+ENV PYTHONPATH=/app/src
 
 CMD ["python", "-m", "src.main"]
